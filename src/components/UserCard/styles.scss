@@ -1,0 +1,57 @@
+$AzulEscuro: #0E2941;
+$CinzaEscuro: #333333;
+
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    margin-right: 500px;
+    margin-left: 300px;
+
+    .user-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .user-left-side {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-right-side {
+            display: flex;
+            gap: 10px;
+        }
+
+        .user-names {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+
+            .user-total-name {
+                font-size: 25px;
+                font-weight: bold;
+                color: $AzulEscuro;
+            }
+
+            .user-username {
+                font-size: 15px;
+                color: $CinzaEscuro;
+            }
+        }
+    }
+
+    .user-posts {
+        margin-top: 20px;
+    }
+}
+
+.follow-box {
+    font-weight: bold;
+    font-size: 15px;
+}

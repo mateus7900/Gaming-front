@@ -1,0 +1,17 @@
+$CinzaClaro: #F2F2F2;
+$Branco: #FFFFFF;
+
+.sidebar-item {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background-color: $Branco;
+    border-radius: 5px;
+    cursor: pointer;
+
+    align-items: center;
+
+    &:hover {
+        background-color: $CinzaClaro;
+    }
+}

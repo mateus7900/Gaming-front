@@ -1,0 +1,18 @@
+$CinzaClaro: #F2F2F2;
+$CinzaMeioClaro: #585858;
+
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-button {
+    border: none;
+    background-color: $CinzaClaro;
+    cursor: pointer;
+
+    &:hover {
+        color: $CinzaMeioClaro;
+    }
+}

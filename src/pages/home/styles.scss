@@ -1,0 +1,12 @@
+$CinzaMeioClaro: #585858;
+$CinzaClaro: #F2F2F2;
+body {
+    background-color: $CinzaClaro;
+}
+
+.home-page {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    background-color: $CinzaClaro;
+}

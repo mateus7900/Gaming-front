@@ -1,0 +1,23 @@
+$Branco: #FFFFFF;
+$CinzaEscuro: #333333;
+
+.user-label {
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: $Branco;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        align-items: center;
+        &>p {
+            padding-left: 10px;
+            color: $CinzaEscuro;
+        }
+    }
+}

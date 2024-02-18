@@ -1,0 +1,18 @@
+$CinzaEscuro: #333333;
+$Branco: #FFFFFF;
+$AzulEscuro: #0E2941;
+
+.button {
+    padding: 10px 15px 10px 15px;
+    background-color: $AzulEscuro;
+    border: none;
+    border-radius: 5px;
+    color: $Branco;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+        background-color: $CinzaEscuro;
+    }
+}

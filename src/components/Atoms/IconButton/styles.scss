@@ -1,0 +1,17 @@
+$CinzaEscuro: #333333;
+$Branco: #FFFFFF;
+$AzulEscuro: #0E2941;
+$CinzaClaro: #F2F2F2;
+
+.icon-button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    color: $CinzaEscuro;
+
+    &:hover {
+        background-color: $CinzaClaro;
+    }
+}

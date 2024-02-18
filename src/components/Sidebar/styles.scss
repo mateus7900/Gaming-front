@@ -1,0 +1,36 @@
+$AzulCeleste: #79b8f3;
+$AzulClaro: #aed9f7;
+$AzulPrussiaSuave: #467396;
+$Branco: #ffffff;
+$CinzaClaro: #f2f2f2;
+$CinzaMaisClaro: #ebebeb;
+
+$AzulPrussia: #004953;
+$AzulEscuro: #0e2941;
+$AzulMedio: #1d536b;
+$CianoEscuro: #006e8c;
+$CinzaEscuro: #333333;
+$CinzaBorda: #b4b4b4;
+
+.sidebar {
+  background-color: $CinzaClaro;
+
+  width: 300px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  border-right: 1px solid $CinzaBorda;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}

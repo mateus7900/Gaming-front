@@ -1,0 +1,46 @@
+$AzulCeleste: #79B8F3;
+$AzulClaro: #AED9F7;
+$AzulPrussiaSuave: #467396;
+$Branco: #FFFFFF;
+$CinzaClaro: #F2F2F2;
+$CinzaMaisClaro: #EBEBEB;
+
+$AzulPrussia: #004953;
+$AzulEscuro: #0E2941;
+$AzulMedio: #1D536B;
+$CianoEscuro: #006E8C;
+$CinzaEscuro: #333333;
+$CinzaMeioClaro: #585858;
+
+.card {
+    width: 500px;
+    height: 500px;
+    background-color: $CinzaClaro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    gap: 15px;
+    padding-top: 50px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .title{
+        color: $AzulEscuro;
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+
+    .image {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.button {
+    max-width: 245px;
+}
